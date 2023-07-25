@@ -6,4 +6,21 @@
 
 body{
     background-color: gray;
+   
+}
+
+.main{
+     display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 5px;
+    background-color: red;
+    border: 5px solid blue;
+    height: 100px;
+    width: 100px;
+   
 }
