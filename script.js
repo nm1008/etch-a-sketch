@@ -7,6 +7,10 @@ function createGrid(size){
         const div = document.createElement("div");
         div.classList.add("container")
         main.appendChild(div)
+
+        div.addEventListener("mouseover", (e) => {
+            div.style.backgroundColor = "red"
+        })
     }
 }
 
